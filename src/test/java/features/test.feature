@@ -5,5 +5,6 @@ Feature: Gradle-Cucumber integration
     Then I close the browser
     
   Scenario: Firefox Test
-  	Given I open Chrome
+      Given I open Chrome
+      When I search WorldCup
     Then I close the browser
